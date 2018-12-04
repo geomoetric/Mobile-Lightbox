@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA3CC16921B63B3D004CEAC5 /* dayNight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3CC16821B63B3D004CEAC5 /* dayNight.swift */; };
 		DAC096EA219D1C9E001F46C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC096E9219D1C9E001F46C7 /* AppDelegate.swift */; };
 		DAC096EC219D1C9E001F46C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC096EB219D1C9E001F46C7 /* ViewController.swift */; };
 		DAC096EF219D1C9E001F46C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC096ED219D1C9E001F46C7 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA3CC16821B63B3D004CEAC5 /* dayNight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayNight.swift; sourceTree = "<group>"; };
 		DAC096E6219D1C9E001F46C7 /* em36362_Final_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = em36362_Final_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC096E9219D1C9E001F46C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC096EB219D1C9E001F46C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				DAC096F0219D1C9E001F46C7 /* em36362_Final_Project.xcdatamodeld */,
 				DAE731A421AFA35C00363352 /* night.xib */,
 				DAE731A621AFA3B200363352 /* night.swift */,
+				DA3CC16821B63B3D004CEAC5 /* dayNight.swift */,
 			);
 			path = em36362_Final_Project;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				DAC096EC219D1C9E001F46C7 /* ViewController.swift in Sources */,
 				DAC096EA219D1C9E001F46C7 /* AppDelegate.swift in Sources */,
 				DAC096F2219D1C9E001F46C7 /* em36362_Final_Project.xcdatamodeld in Sources */,
+				DA3CC16921B63B3D004CEAC5 /* dayNight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

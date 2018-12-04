@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="637.60000000000002" y="121.88905547226388"/>
         </scene>
-        <!--View Controller-->
+        <!--Day Night-->
         <scene sceneID="jJP-FK-4fg">
             <objects>
-                <viewController id="QhB-AQ-pvt" sceneMemberID="viewController">
+                <viewController id="QhB-AQ-pvt" customClass="dayNight" customModule="em36362_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nZc-L2-C9y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
