@@ -14,6 +14,8 @@
 		DAC096F2219D1C9E001F46C7 /* em36362_Final_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAC096F0219D1C9E001F46C7 /* em36362_Final_Project.xcdatamodeld */; };
 		DAC096F4219D1C9F001F46C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC096F3219D1C9F001F46C7 /* Assets.xcassets */; };
 		DAC096F7219D1C9F001F46C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC096F5219D1C9F001F46C7 /* LaunchScreen.storyboard */; };
+		DAD8C58721BF718F00665FF8 /* day.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD8C58621BF718F00665FF8 /* day.swift */; };
+		DAD8C58921BF731700665FF8 /* dayNight2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD8C58821BF731700665FF8 /* dayNight2.swift */; };
 		DAE731A521AFA35C00363352 /* night.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE731A421AFA35C00363352 /* night.xib */; };
 		DAE731A721AFA3B200363352 /* night.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE731A621AFA3B200363352 /* night.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,8 @@
 		DAC096F3219D1C9F001F46C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC096F6219D1C9F001F46C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC096F8219D1C9F001F46C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD8C58621BF718F00665FF8 /* day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day.swift; sourceTree = "<group>"; };
+		DAD8C58821BF731700665FF8 /* dayNight2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayNight2.swift; sourceTree = "<group>"; };
 		DAE731A421AFA35C00363352 /* night.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = night.xib; sourceTree = "<group>"; };
 		DAE731A621AFA3B200363352 /* night.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = night.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +75,9 @@
 				DAC096F0219D1C9E001F46C7 /* em36362_Final_Project.xcdatamodeld */,
 				DAE731A421AFA35C00363352 /* night.xib */,
 				DAE731A621AFA3B200363352 /* night.swift */,
+				DAD8C58621BF718F00665FF8 /* day.swift */,
 				DA3CC16821B63B3D004CEAC5 /* dayNight.swift */,
+				DAD8C58821BF731700665FF8 /* dayNight2.swift */,
 			);
 			path = em36362_Final_Project;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD8C58921BF731700665FF8 /* dayNight2.swift in Sources */,
+				DAD8C58721BF718F00665FF8 /* day.swift in Sources */,
 				DAE731A721AFA3B200363352 /* night.swift in Sources */,
 				DAC096EC219D1C9E001F46C7 /* ViewController.swift in Sources */,
 				DAC096EA219D1C9E001F46C7 /* AppDelegate.swift in Sources */,

@@ -94,10 +94,11 @@ class dayNight: UIViewController {
             currentGradient = 0
             print("stop")
         }
-        
+   
+        print(gradientSet)
+
         let gradientChangeAnimation = CABasicAnimation(keyPath: "colors")
-        gradientChangeAnimation.duration = 5.0
-        print("test")
+        gradientChangeAnimation.duration = 0.5
 
         gradientChangeAnimation.toValue = gradientSet[currentGradient]
         gradientChangeAnimation.fillMode = kCAFillModeForwards
